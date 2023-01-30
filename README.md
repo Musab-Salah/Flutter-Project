@@ -17,3 +17,5 @@ This is Flutter project for university course contain 4 Utilities :
 ```bash
 git clone https://github.com/Musab-Salah/Flutter-Project.git
 ```
+
+### Must change the main file to main_route from Edit Configuration 
