@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
           } else {
             return const Center(
                 child: CircularProgressIndicator(
-              color: Color(0xffFF8C32),
+              color: Color(0x607D8BFF),
             ));
           }
         },

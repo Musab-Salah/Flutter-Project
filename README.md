@@ -1,16 +1,14 @@
-# ff23
+# Utilities App
 
-A new Flutter project.
+this is Flutter project for university course contain 4 Utilities :
+1- Calculate 
+2- Stop watch 
+3-Quotes (Get From API) 
+4-Quotes (Write own quotes on Firebase)
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/Musab-Salah/Flutter-Project.git
+```
