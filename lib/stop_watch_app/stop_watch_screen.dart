@@ -111,7 +111,7 @@ class _StopWatchScreenState extends State<StopWatchScreen> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Lap n*${index + 1}',
+                              'Lap ${index + 1}',
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyLarge!

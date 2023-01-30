@@ -1,7 +1,7 @@
-import 'package:ff23/quotes/mainquotes.dart';
-import 'package:ff23/stop_watch_app/stop_watch_screen.dart';
+
 import 'package:flutter/material.dart';
 
+import 'createquotes/maincreatequotes.dart';
 import 'getquotesfromapi/mainquotes.dart';
 
 
@@ -21,6 +21,7 @@ class Mainquotes extends StatelessWidget {
         body: TabBarView(
           children: <Widget>[
             getquote(),
+            maincquotes(),
           ],
         ),
 

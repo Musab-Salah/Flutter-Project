@@ -8,12 +8,16 @@ class Main extends StatelessWidget {
       body: Center(
 
         child: Container(
-          margin:EdgeInsets.only(bottom: 200.0),
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/img.png"),
+              fit: BoxFit.cover,
+            ),
+          ),
+          padding:EdgeInsets.only(bottom: 200.0),
 
 
           child: Column(
-
-
 
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
