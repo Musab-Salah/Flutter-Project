@@ -8,7 +8,7 @@ This is Flutter project for university course contain 4 Utilities :
 
 3-Quotes (Get From API) 
 
-4-Quotes (Write own quotes on Firebase)
+4-Quotes (Write own quotes on JSON File)
 
 ## Installation
 
