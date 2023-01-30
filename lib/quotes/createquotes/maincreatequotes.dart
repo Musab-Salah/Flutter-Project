@@ -16,7 +16,6 @@ class maincquotes extends StatefulWidget {
 class _HomePageState extends State<maincquotes> {
   List _items = [];
 
-  // Fetch content from the json file
   Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/quotes.json');
     final data = await json.decode(response);
@@ -28,7 +27,6 @@ class _HomePageState extends State<maincquotes> {
   @override
   void initState() {
     super.initState();
-    // Call the readJson method when the app starts
     readJson();
   }
 
@@ -39,7 +37,6 @@ class _HomePageState extends State<maincquotes> {
         padding: const EdgeInsets.all(25),
         child: Column(
           children: [
-            // Display the data loaded from sample.json
             _items.isNotEmpty
                 ? Expanded(
               child: ListView.builder(
