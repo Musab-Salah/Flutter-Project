@@ -99,7 +99,7 @@ class _StopWatchScreenState extends State<StopWatchScreen> {
                     padding: const EdgeInsets.all(8.0),
                     margin: const EdgeInsets.symmetric(vertical: 50.0),
                     width: double.infinity,
-                    //height: 350,
+
                     decoration: BoxDecoration(
                       color: Colors.white.withOpacity(0.3),
                       borderRadius: BorderRadius.circular(15),

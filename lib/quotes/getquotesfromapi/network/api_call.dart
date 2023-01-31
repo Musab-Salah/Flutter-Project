@@ -8,7 +8,7 @@ Future fetchAllQuotes() async {
   final response = await http.get(Uri.parse('https://type.fit/api/quotes'));
   if (response.statusCode == 200) {
     var jsonData = jsonDecode(response.body);
-    print(jsonData);
+    //print(jsonData);
 
     var quotes = [];
     for (var aQuote in jsonData) {
@@ -17,7 +17,7 @@ Future fetchAllQuotes() async {
 
       quotes.add(quote);
     }
-    print(quotes.length);
+   // print(quotes.length);
     return quotes;
   } else {
     throw Exception('Failed to fetch posts');

@@ -108,12 +108,12 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.grey,
       appBar: AppBar(
         title: const Text(
           'Calculator',
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.grey,
         elevation: 0.0,
       ),
       body: Padding(
@@ -135,10 +135,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                calcBtn('AC', Colors.black, Colors.grey),
-                calcBtn('+/-', Colors.black, Colors.grey),
-                calcBtn('%', Colors.black, Colors.grey),
-                calcBtn('/', Colors.black, Colors.orange),
+                calcBtn('AC', Colors.white, Colors.grey[850] as Color),
+                calcBtn('+/-', Colors.white, Colors.grey[850] as Color),
+                calcBtn('%', Colors.white, Colors.grey[850] as Color),
+                calcBtn('/', Colors.white, Colors.grey[850] as Color),
               ],
             ),
             const SizedBox(
@@ -150,7 +150,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 calcBtn('7', Colors.white, Colors.grey[850] as Color),
                 calcBtn('8', Colors.white, Colors.grey[850] as Color),
                 calcBtn('9', Colors.white, Colors.grey[850] as Color),
-                calcBtn('*', Colors.white, Colors.orange),
+                calcBtn('*', Colors.white, Colors.grey[850] as Color),
               ],
             ),
             const SizedBox(
@@ -162,7 +162,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 calcBtn('4', Colors.white, Colors.grey[850] as Color),
                 calcBtn('5', Colors.white, Colors.grey[850] as Color),
                 calcBtn('6', Colors.white, Colors.grey[850] as Color),
-                calcBtn('-', Colors.white, Colors.orange),
+                calcBtn('-', Colors.white, Colors.grey[850] as Color),
               ],
             ),
             const SizedBox(
@@ -174,7 +174,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 calcBtn('1', Colors.white, Colors.grey[850] as Color),
                 calcBtn('2', Colors.white, Colors.grey[850] as Color),
                 calcBtn('3', Colors.white, Colors.grey[850] as Color),
-                calcBtn('+', Colors.white, Colors.orange),
+                calcBtn('+', Colors.white, Colors.grey[850] as Color),
               ],
             ),
             const SizedBox(
@@ -199,7 +199,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       style: TextStyle(color: Colors.white, fontSize: 25),
                     )),
                 calcBtn('.', Colors.white, Colors.grey[850] as Color),
-                calcBtn('=', Colors.white, Colors.orange),
+                calcBtn('=', Colors.white, Colors.grey[850] as Color),
               ],
             ),
           ],
